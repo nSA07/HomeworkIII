@@ -221,6 +221,14 @@ button {
       }
 }
 
+.wrapper {
+	min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+    width: 100%;
+}
+
 [class*="__container"] {
 	width: 1342/$vw;
 	margin: 0 auto;
@@ -229,14 +237,6 @@ button {
 		padding: 102/$vw 40/$vw 0;
 		justify-content: space-between;
    }
-}
-
-.wrapper {
-	min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: clip;
-    width: 100vw;
 }
 
 .content {
